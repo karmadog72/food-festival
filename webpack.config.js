@@ -63,6 +63,11 @@ const config = {
     //   }]
     // })
   ],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, ""),
+    },
+  },
   mode: "development",
 };
 
